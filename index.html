@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .intro {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .project-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+        
+        .project-content {
+            padding: 1.5rem;
+        }
+        
+        .project-title {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            color: #2c3e50;
+        }
+        
+        .project-description {
+            margin-bottom: 1rem;
+            color: #555;
+        }
+        
+        .project-link {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        
+        .project-link:hover {
+            background-color: #2980b9;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #2c3e50;
+            color: white;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Benjamin's Portfolio</h1>
+        <p>Web Developer & Designer</p>
+    </header>
+    
+    <div class="container">
+        <section class="intro">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Explore my various web development projects showcasing different skills and designs.</p>
+        </section>
+        
+        <section class="projects">
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Main Portfolio</h3>
+                    <p class="project-description">My primary portfolio showcasing my skills, resume, and contact information.</p>
+                    <a href="benjamin-portfolio/portfolio/index.html" class="project-link">View Project</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Ghana Project</h3>
+                    <p class="project-description">An informational site about Ghana, featuring culture, images, and facts.</p>
+                    <a href="benjamin-portfolio/Ghana/index.html" class="project-link">View Project</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Joystick Junkies</h3>
+                    <p class="project-description">A gaming website featuring game lists and gaming systems information.</p>
+                    <a href="benjamin-portfolio/joystick-junkies/index.html" class="project-link">View Project</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Groove Guitars</h3>
+                    <p class="project-description">A guitar shop website showcasing various guitar models and information.</p>
+                    <a href="benjamin-portfolio/portfolio/groove-guitars/index.html" class="project-link">View Project</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <div class="project-content">
+                    <h3 class="project-title">Puppies Project</h3>
+                    <p class="project-description">A fun project featuring adorable puppies and information about dog breeds.</p>
+                    <a href="benjamin-portfolio/portfolio/puppies/index.html" class="project-link">View Project</a>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Benjamin's Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
